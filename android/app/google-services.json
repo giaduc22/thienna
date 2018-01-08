@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "98124397666",
+    "firebase_url": "https://thien-na.firebaseio.com",
+    "project_id": "thien-na",
+    "storage_bucket": "thien-na.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98124397666:android:9b7a625fd4b8a56e",
+        "android_client_info": {
+          "package_name": "net.findtask.thienna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98124397666-hp0cvpbtstf8ga6lktkb9p6v5b1jb5kb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.findtask.thienna",
+            "certificate_hash": "4f259edd8f54a1a48761c83ac6c7825d497eefbd"
+          }
+        },
+        {
+          "client_id": "98124397666-ft0ip34082m3nc4aa78a4lpbnjdnr65m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.findtask.thienna",
+            "certificate_hash": "aeab1db73049b56ef5d610d690f2a206b71bd92b"
+          }
+        },
+        {
+          "client_id": "98124397666-i6k5kdd2bg7vn4c1kbf98lf9hracimvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYIowoqHYYWm4Y5lNK6k5Xhh5wmv6ob2M"
+        },
+        {
+          "current_key": "AIzaSyASFcM_SCUsDicJlGXGOeMXmBznCuiUuv8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98124397666-i6k5kdd2bg7vn4c1kbf98lf9hracimvh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "98124397666-9ubc63cm50nv0c2n6btd1cifj6kfofhk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nwanvu.iosapp"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98124397666:android:84a0a9d45155f625",
+        "android_client_info": {
+          "package_name": "net.findtask.thienna.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98124397666-7rnb0lfftqmq9i70gtkgmk27trujiteo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.findtask.thienna.debug",
+            "certificate_hash": "ad0d35da2b76fd89f1f3d80fb0331074468c649e"
+          }
+        },
+        {
+          "client_id": "98124397666-i6k5kdd2bg7vn4c1kbf98lf9hracimvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYIowoqHYYWm4Y5lNK6k5Xhh5wmv6ob2M"
+        },
+        {
+          "current_key": "AIzaSyASFcM_SCUsDicJlGXGOeMXmBznCuiUuv8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98124397666-i6k5kdd2bg7vn4c1kbf98lf9hracimvh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "98124397666-9ubc63cm50nv0c2n6btd1cifj6kfofhk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nwanvu.iosapp"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
