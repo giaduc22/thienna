@@ -7,7 +7,8 @@ import MediaItem from '../MediaItem';
 
 const VIDEO_ICON = require('../../../../Assets/Icons/ic-video.png');
 
-class DaoDuc extends Component {
+class CongDuc extends Component {
+
     _getContent(content) {
         content = content.replace(/<p>/g, '');
         content = content.replace(/<p>/g, '');
@@ -45,4 +46,4 @@ class DaoDuc extends Component {
     }
 }
 
-export default DaoDuc;
+export default CongDuc;

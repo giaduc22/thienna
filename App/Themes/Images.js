@@ -13,6 +13,7 @@ import { Image } from 'react-native';
 
 const images = {
     ic_menu: { source: require('../Assets/Icons/ic-menu.png'), width: 64, height: 54 },
+    ic_download: { source: require('../Assets/Icons/ic-download.png'), width: 64, height: 55 },
     ic_arrow: { source: require('../Assets/Icons/arrow.png'), width: 64, height: 55 },
     ic_chat: { source: require('../Assets/Icons/ic-chat.png'), width: 64, height: 52 },
     ic_right_arrow: { source: require('../Assets/Icons/ic-preview.png'), width: 40, height: 67 },

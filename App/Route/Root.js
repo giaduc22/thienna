@@ -6,6 +6,7 @@ import Introduce from '../Screens/Introduce';
 import Notification from '../Screens/Notification';
 import GiveFeedback from '../Screens/GiveFeedback';
 import Answer from '../Screens/Answer';
+import CongDuc from '../Screens/Home/Library/CongDuc';
 import DaoDuc from '../Screens/Home/Library/DaoDuc';
 import KhiCong from '../Screens/Home/Library/KhiCong';
 import AuthorIntroduce from '../Screens/AuthorIntroduce';
@@ -23,6 +24,7 @@ export default StackNavigator({
     GiveFeedback: { screen: GiveFeedback },
     AuthorIntroduce: { screen: AuthorIntroduce },
     Answer: { screen: Answer },
+    CongDuc: { screen: CongDuc },
     DaoDuc: { screen: DaoDuc },
     KhiCong: { screen: KhiCong },
 },

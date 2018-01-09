@@ -61,3 +61,39 @@ export const ITEM_STYLES = StyleSheet.create({
         backgroundColor: 'transparent'
     }
 });
+
+export const MEDIA_ITEM_STYLES = StyleSheet.create({
+    item: {
+        height: 50, 
+        flexDirection: 'row',
+        alignItems: 'center',
+        paddingHorizontal: 10
+    },
+    icon: {
+        height: 24,
+        width: 24,
+        tintColor: Colors.NAV_ICON_LIGHT_COLOR
+    },
+    rightContentWrapper: {
+        flex: 1,
+        height: 50,
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginLeft: 10,
+        borderBottomWidth: Metrics.BORDER_WIDTH,
+        borderColor: Colors.BORDER_COLOR
+    },
+    contentWrapper: {
+        flex: 1,
+        paddingRight: 9
+    },
+    title: {
+        color: Colors.NORMAL_TEXT_COLOR,
+        backgroundColor: 'transparent',
+        fontSize: 16
+    },
+    subTitle: {
+        color: Colors.NAV_ICON_DARK_COLOR,
+        backgroundColor: 'transparent'
+    }
+});

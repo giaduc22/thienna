@@ -44,6 +44,12 @@ class Library extends Component {
 
     _onPressItem(item, index) {
         switch ( index ) {
+            case 0:
+                this.props.mainNavigation.navigate('CongDuc', { item });
+                break;
+            case 1:
+                this.props.mainNavigation.navigate('DaoDuc', { item });
+                break;
             case 2:
                 this.props.mainNavigation.navigate('KhiCong', { item });
                 break;

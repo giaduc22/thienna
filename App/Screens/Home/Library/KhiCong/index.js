@@ -1,32 +1,48 @@
-/* 
-    Notification Screen
-    Created by Dudv on 06/01/2018
-*/
-
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, FlatList } from 'react-native';
 import ChildNavBar from '../../../../Components/ChildNavBar';
 import styles from './styles';
 import HTML from 'react-native-render-html';
+import MediaItem from '../MediaItem';
 
-class Notification extends Component {
+const VIDEO_ICON = require('../../../../Assets/Icons/ic-video.png');
+
+class KhiCong extends Component {
     _getContent(content) {
         content = content.replace(/<p>/g, '');
         content = content.replace(/<p>/g, '');
         return content;
     }
 
+    _getTitle(title) {
+        return title;
+    }
+
     render() {
-        const { content } = this.props.navigation.state.params.item;
+        const { content, title, media } = this.props.navigation.state.params.item;
         return (
             <View style={{ flex: 1 }}>
-                <ChildNavBar label="Khí công" onBack={() => this.props.navigation.goBack()} />
+                <ChildNavBar label={this._getTitle(title)} onBack={() => this.props.navigation.goBack()} />
                 <View style={styles.container}>
-                    <Text style={styles.notification}>{this._getContent(content)}</Text>
+                    <HTML
+                        html={this._getContent(content)}
+                    />
+                    <FlatList
+                        data={media}
+                        renderItem={({ item, index }) => {
+                            return (
+                                <MediaItem
+                                    image={VIDEO_ICON}
+                                    title={item.name}
+                                    key={item[index]}
+                                />
+                            );
+                        }}
+                    />
                 </View>
             </View>
         );
     }
 }
 
-export default Notification;
+export default KhiCong;
