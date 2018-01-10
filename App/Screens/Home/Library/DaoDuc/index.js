@@ -5,7 +5,6 @@ import styles from './styles';
 import HTML from 'react-native-render-html';
 import MediaItem from '../MediaItem';
 
-const VIDEO_ICON = require('../../../../Assets/Icons/ic-video.png');
 
 class DaoDuc extends Component {
     _getContent(content) {
@@ -32,9 +31,8 @@ class DaoDuc extends Component {
                         renderItem={({ item, index }) => {
                             return (
                                 <MediaItem
-                                    image={VIDEO_ICON}
                                     title={item.name}
-                                    key={item[index]}
+                                    keyExtractor={item[index]}
                                 />
                             );
                         }}
